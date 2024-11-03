@@ -1,0 +1,93 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0ffff; /* Light aquamarine background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #008b8b; /* Dark aquamarine */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav-container {
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation styles */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #000; /* Black background for nav */
+}
+
+.hamburguesa {
+    display: none; /* Hides hamburger menu for now */
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #e0ffff; /* Light aquamarine */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #005757; /* Darker shade for hover */
+}
+
+/* Content styles */
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #008b8b; /* Dark aquamarine */
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 0 15px;
+    text-align: justify;
+}
+ul{
+    text-align: center;
+    margin: 0.5px 0;
+    color: #008b8b; /* Dark aquamarine */
+}
+ 
+

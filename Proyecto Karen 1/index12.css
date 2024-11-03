@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Matemasie&display=swap');
+ .boby{
+    font-family: "Matemasie", sans-serif;
+    margin: 100;
+    padding: 100;
+}
+#inicio .fondo .img-biología   {
+    background-image: url(./Biología.png);
+    background-size: cover;
+    background-position: center center;
+    width: 1582px;
+    height: 684px;
+}
+
+.navbar {
+    background-color: #020202;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #6aecba;
+    color: rgb(62, 134, 131);
+}
+
+.container {
+    padding: 20px;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+img {
+    align-items: center;
+}
